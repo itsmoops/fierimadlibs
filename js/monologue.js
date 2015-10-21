@@ -45,7 +45,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"It's great rollin' the 67' around here, I'm south of",
 		"I almost ran out of gas, and wound up here, in a funky little town called",
 		"How cool is this story? Here I am, just west of",
-		"This is one of my aunt's favorite places to chow down in",
+		"This is one of my recently deceased aunt's favorite places to chow down in",
 		"So here I am, smack dab in the middle of",
 		"If you know about this place, you've GOTTA be from",
 		"When you think " + state + ", you probably think cajun food. Well here in",
@@ -114,7 +114,12 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"all you can eat wings",
 		"super tender bites",
 		"out of control potatoes",
-		"room temperature corn"
+		"room temperature corn",
+		"sauced up staples",
+		"mayo-based pick-me-ups",
+		"hand-crafted originals",
+		"a mix of old and new",
+		"perfectly crafted sliders"
 	];
 	var randomNum5 = Math.floor(Math.random() * fieriText5.length);
 
@@ -131,7 +136,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"bomb-dot-com",
 		"beyond flakey",
 		"melt in your mouth",
-		"shut me up",
+		"shut-me-up",
 		"mouth-watering",
 		"killer",
 		"over 900 pounds of",
@@ -146,7 +151,11 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"that's been done the same way for over 30 years",
 		"and I can't wait to get inside",
 		"that you can eat straight off a flip-flop",
-		"that they been doin' that way for over 65 years"
+		"that they been doin' that way for over 65 years",
+		"that comes with a side of food-lube",
+		"covered in queso",
+		"slathered in mayonnaise",
+		"that the neighborhood just can't get enough of"
 	];
 	var randomNum7 = Math.floor(Math.random() * fieriText7.length);
 
