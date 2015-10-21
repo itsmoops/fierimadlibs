@@ -1,0 +1,78 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html, body {
+    height:100%;
+    background-color: white;
+    color: black;
+    background-image: url(../img/guy1.jpeg);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    /*padding-top: 50px;*/
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 40px;
+}
+
+a {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button {
+    clear: both;
+    margin-top: -30px;
+    cursor: pointer;
+    color: white;
+    background: #565656;
+    border-bottom: 2px solid #400F08;
+    padding: 4px 10px;
+    font-size: 15px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.input-controls {
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    color: white;
+    text-decoration: none;
+    background: black;
+    margin-top: 10px !important;
+}
+
+.flexbox-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content:center;
+    -webkit-justify-content: center;
+    margin-top: 10%;
+}
+
+.center-panel {
+    background-color: white;
+    padding-bottom: 20px;
+    *-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40%;
+}

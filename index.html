@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <base href="/"></base>
+        <title>Triple D Mad-Libs</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-xs-12 flexbox-container">
+                <div class="col-xs-8 text-center center-panel">
+                    <div class="row col-xs-12 input-controls">
+                        <h1>Guy Fieri's Triple D Mad-Libs!</h1>
+                        <input id="txtRestaurant" type="text" placeholder="Restaurant Name"></input>
+                        <input id="txtCuisine" type="text" placeholder="Food or Cuisine"></input>
+                        <input id="txtCity" type="text" placeholder="City"></input>
+                        <input id="txtState" type="text" placeholder="State"></input>
+                    </div>
+                    <div class="row col-xs-12">
+                        <a class="button" onclick="generate()">We're Rollin Out!</a> 
+                    </div>
+                    <div class="row col-xs-12">
+                        <p id="txtMonologue"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- JS -->
+    <script src="js/monologue.js"></script>
+</html>
