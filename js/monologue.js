@@ -49,7 +49,9 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"So here I am, smack dab in the middle of",
 		"If you know about this place, you've GOTTA be from",
 		"When you think " + state + ", you probably think cajun food. Well here in",
-		"If you're lookin' for chowder, you're in the wrong place. We're here in"
+		"If you're lookin' for chowder, you're in the wrong place. We're here in",
+		"I'm here in",
+		"Here on Triple D, we're all about classic American joints, well today I'm in"
 	];
 	var randomNum1 = Math.floor(Math.random() * fieriText1.length);
 	
@@ -79,7 +81,11 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"once homeless cowboy",
 		"former hotel manager",
 		"reformed drug dealer",
-		"not-too-fancy, but definitely funky dive"
+		"not-too-fancy, but definitely funky dive",
+		"couple of white guys",
+		"couple of children standing on top of each other wearing a trench coat",
+		"former President of the United States",
+		"funky haunted house"
 	];
 	var randomNum3 = Math.floor(Math.random() * fieriText3.length);
 
@@ -90,7 +96,8 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"that's, you guessed it, home makin'",
 		"doin' things their way, bustin' out",
 		"hookin' locals up with",
-		"that's not exactly what you'd expect, cookin' up"
+		"that's not exactly what you'd expect, cookin' up",
+		"where people are pilin' in for"
 	];
 	var randomNum4 = Math.floor(Math.random() * fieriText4.length);
 
@@ -102,7 +109,12 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"homemade grub",
 		"monster flavors",
 		"big time portions",
-		"huge portions"
+		"huge portions",
+		"bowls of steamy chowder",
+		"all you can eat wings",
+		"super tender bites",
+		"out of control potatoes",
+		"room temperature corn"
 	];
 	var randomNum5 = Math.floor(Math.random() * fieriText5.length);
 
@@ -122,7 +134,9 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"shut me up",
 		"mouth-watering",
 		"killer",
-		"over 900 pounds of"
+		"over 900 pounds of",
+		"even better",
+		"super legit"
 	];
 	var randomNum6 = Math.floor(Math.random() * fieriText6.length);
 
@@ -130,7 +144,9 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"and the locals say it's better than ever",
 		"that you just can't get anywhere else",
 		"that's been done the same way for over 30 years",
-		"and I can't wait to get inside"
+		"and I can't wait to get inside",
+		"that you can eat straight off a flip-flop",
+		"that they been doin' that way for over 65 years"
 	];
 	var randomNum7 = Math.floor(Math.random() * fieriText7.length);
 
@@ -141,7 +157,11 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"let's check out",
 		"locals know it as",
 		"you are so gonna dig this, this is",
-		"is your mouth watering yet? This is"
+		"is your mouth watering yet? This is",
+		"my mouth is watering, let's go inside and it out, this is",
+		"oh, and remember, bananas is good. This is",
+		"we're gonna go and check out some home made" + cuisine
+
 	];
 	var randomNum8 = Math.floor(Math.random() * fieriText8.length);
 
