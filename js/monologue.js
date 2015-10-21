@@ -85,7 +85,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 
 	var fieriText4 = [
 		"that decided to give up the corporate life to cook up",
-		"who are scratch makin'",
+		"who's scratch makin'",
 		"that's been crankin' out",
 		"that's, you guessed it, home makin'",
 		"doin' things their way, bustin' out",
