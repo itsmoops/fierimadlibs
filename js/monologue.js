@@ -149,7 +149,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 	var finalText = fieriText1[randomNum1] + " " + city + ", " + state + ", " + 
 	fieriText2[randomNum2] + " " + fieriText3[randomNum3] + " " + fieriText4[randomNum4] + " " + fieriText5[randomNum5] + " and " +
 	fieriText6[randomNum6] + " " + cuisine + ", " + fieriText7[randomNum7] + ". " + capitalize(fieriText8[randomNum8]) 
-	+ " " + restaurant;
+	+ " " + restaurant + ".";
 	
 	return finalText;
 }
