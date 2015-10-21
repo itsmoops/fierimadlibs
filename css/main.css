@@ -29,6 +29,10 @@ a {
     cursor: pointer;
 }
 
+.monologue {
+    margin-top: 10px;
+}
+
 .button {
     clear: both;
     margin-top: -30px;
@@ -81,9 +85,9 @@ a {
 /* xs */
 @media(max-width:439px){
     h1 {
-        font-size: 25px;
-    }
-    h2 {
         font-size: 20px;
+    }
+    p {
+        font-size: 15px;
     }
 }
