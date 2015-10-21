@@ -1,6 +1,6 @@
 function generate() {
 	var restaurant = capitalize(document.getElementById("txtRestaurant").value);
-	var cuisine = capitalize(document.getElementById("txtCuisine").value);
+	var cuisine = document.getElementById("txtCuisine").value;
 	var city = capitalize(document.getElementById("txtCity").value);
 	var state = capitalize(document.getElementById("txtState").value);
 	var label = document.getElementById("txtMonologue");
@@ -160,7 +160,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"is your mouth watering yet? This is",
 		"my mouth is watering, let's go inside and it out, this is",
 		"oh, and remember, bananas is good. This is",
-		"we're gonna go and check out some home made" + cuisine
+		"we're gonna go and check out some home made " + cuisine
 
 	];
 	var randomNum8 = Math.floor(Math.random() * fieriText8.length);
