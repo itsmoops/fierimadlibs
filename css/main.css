@@ -76,3 +76,14 @@ a {
     border-radius: 5px;
     height: 40%;
 }
+
+/* Bootstrap Media Queries 
+/* xs */
+@media(max-width:439px){
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
