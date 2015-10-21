@@ -160,7 +160,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"is your mouth watering yet? This is",
 		"my mouth is watering, let's go inside and it out, this is",
 		"oh, and remember, bananas is good. This is",
-		"we're gonna go and check out some home made " + cuisine
+		"we're gonna go and check out some home made " + cuisine + ". This is"
 
 	];
 	var randomNum8 = Math.floor(Math.random() * fieriText8.length);
