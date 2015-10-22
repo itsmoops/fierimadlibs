@@ -27,6 +27,7 @@ function generate() {
 		label.innerText = madLib;
 	}
 
+	var audio = document.getElementById('audio1');
 	if (audio.paused) {
         audio.play();
     }
