@@ -106,7 +106,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"former President of the United States",
 		"funky haunted house with a " + city + " twist",
 		"forclosed office building with a twist",
-		"old-school lobster shack",
+		"legit old-school lobster shack",
 		"50 year old ski lodge",
 		"traditional deli"
 	];
