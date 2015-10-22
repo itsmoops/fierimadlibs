@@ -27,8 +27,12 @@ function generate() {
 		label.innerText = madLib;
 	}
 
-	var currentAudio = document.getElementById('audio1');
-    currentAudio.play();
+	if (audio.paused) {
+        audio.play();
+    }
+    else{
+        audio.currentTime = 0
+    }
 }
 
 function capitalizeFirst(str) {
