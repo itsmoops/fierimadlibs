@@ -183,7 +183,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"and I can't wait to get inside",
 		"that you can eat straight off a flip-flop",
 		"that they been doin' that way for over 65 years",
-		"that comes with a side of food-lube",
+		"that comes with an extra side of food-lube",
 		"covered in queso",
 		"slathered in mayonnaise",
 		"that the neighborhood just can't get enough of",
