@@ -6,10 +6,15 @@
 
 html, body {
     height:100%;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     /*background-image: url(../img/guy1.jpeg);*/
-    background-image: url(../img/guy2.jpg);
+    background-image: url(../img/guy3.jpg);
+    font-family: 'Francois One', sans-serif;
+}
+
+input {
+    color: black;
 }
 
 body {
@@ -39,8 +44,8 @@ a {
     margin-top: -30px;
     cursor: pointer;
     color: white;
-    background: #565656;
-    border-bottom: 2px solid #400F08;
+    background: #D80000;
+    border-bottom: 2px solid black;
     padding: 4px 10px;
     font-size: 15px;
     -moz-border-radius: 5px;
@@ -56,30 +61,37 @@ a {
 .button:hover {
     color: white;
     text-decoration: none;
-    background: black;
+    background: #6F0000;
     margin-top: 10px !important;
 }
 
-.flexbox-container {
+.flexcontainer {
+    min-height:800px;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+
     -ms-flex-align: center;
     -webkit-align-items: center;
     -webkit-box-align: center;
+
     align-items: center;
     justify-content:center;
     -webkit-justify-content: center;
-    margin-top: 6%;
 }
 
 .center-panel {
-    background-color: white;
+    background-color: black;
     padding-bottom: 20px;
     *-moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
     height: 40%;
+    background-image: url(../img/flames.jpg);
+    background-position-y: bottom;
+    background-size: 275px;
+    background-repeat: repeat-x;
+    padding-bottom: 75px;
 }
 
 /* Bootstrap Media Queries 
@@ -90,5 +102,8 @@ a {
     }
     p {
         font-size: 15px;
+    }
+    .flexcontainer {
+        min-height:100px;
     }
 }

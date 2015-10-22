@@ -12,32 +12,34 @@
         <!-- Place favicon.ico in the root directory -->
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
-        <link rel="stylesheet" href="fierimadlibs/css/normalize.css">
+        <link rel="stylesheet" href="css/normalize.css">
 
         <!-- Bootstrap Core CSS -->
-        <link href="fierimadlibs/css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="fierimadlibs/css/main.css">
+        <link rel="stylesheet" href="css/main.css">
 
-        <link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <div class="row">
-            <div class="col-xs-12 flexbox-container">
-                <div class="col-xs-10 col-sm-8 text-center center-panel">
-                    <div class="row col-xs-12 input-controls">
-                        <h1>Guy Fieri's Triple D Generator!</h1>
-                        <input id="txtRestaurant" type="text" placeholder="Restaurant Name"></input>
-                        <input id="txtCuisine" type="text" placeholder="Food or Cuisine"></input>
-                        <input id="txtCity" type="text" placeholder="City"></input>
-                        <input id="txtState" type="text" placeholder="State"></input>
-                    </div>
-                    <div class="row col-xs-12">
-                        <a class="button" onclick="generate()">We're Rollin' Out!</a> 
-                    </div>
-                    <div class="row col-xs-12 monologue">
-                        <p id="txtMonologue"></p>
+            <div class="col-xs-12">
+                <div class="flexcontainer">
+                    <div class="col-xs-10 col-sm-8 text-center center-panel">
+                        <div class="col-xs-12 input-controls">
+                            <h1>Guy Fieri's Triple D Generator!</h1>
+                            <input id="txtRestaurant" type="text" placeholder="Restaurant Name"></input>
+                            <input id="txtCuisine" type="text" placeholder="Food or Cuisine"></input>
+                            <input id="txtCity" type="text" placeholder="City"></input>
+                            <input id="txtState" type="text" placeholder="State"></input>
+                        </div>
+                        <div class="col-xs-12">
+                            <a class="button" onclick="generate()">We're Rollin' Out!</a> 
+                        </div>
+                        <div class="col-xs-12 monologue">
+                            <p id="txtMonologue"></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -45,7 +47,7 @@
     </body>
     <!-- Audio -->
     <audio id="audio1">
-        <source src="fierimadlibs/audio/tripled2.mp3" type="audio/mpeg">
+        <source src="audio/tripled2.mp3" type="audio/mpeg">
     </audio>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -54,5 +56,5 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     <!-- JS -->
-    <script src="fierimadlibs/js/monologue.js"></script>
+    <script src="js/monologue.js"></script>
 </html>

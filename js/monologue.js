@@ -7,19 +7,19 @@ function generate() {
 	
 
 	if (restaurant === "") {
-		alert("Guy Fieri needs you to enter a restaurant");
+		alert("Guy Fieri needs you to enter a restaurant!");
 		return false;
 	}
 	else if (cuisine === "") {
-		alert("Guy Fieri needs you to enter a cuisine type");
+		alert("Guy Fieri needs you to enter a cuisine type!");
 		return false;
 	}
 	else if (city === "") {
-		alert("Guy Fieri needs you to enter a city");
+		alert("Guy Fieri needs you to enter a city!");
 		return false;
 	}
 	else if (state === "") {
-		alert("Guy Fieri needs you to enter a state");
+		alert("Guy Fieri needs you to enter a state!");
 		return false;
 	}
 	else {
@@ -98,7 +98,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"couple of children standing on top of each other wearing a trench coat",
 		"former President of the United States",
 		"funky haunted house with a " + city + " twist",
-		"office building with a twist",
+		"forclosed office building with a twist",
 		"old-school lobster shack",
 		"50 year old ski lodge",
 		"traditional deli"
