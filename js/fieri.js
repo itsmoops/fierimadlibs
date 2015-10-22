@@ -63,7 +63,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"When you think " + state + ", you probably think cajun food. Well here in",
 		"If you're lookin' for chowder, you're in the wrong place. We're here in",
 		"I'm here in",
-		"I'm here with Kid Rock",
+		"I'm here with Kid Rock in",
 		"Here I am with my main man, Steve from Smashmouth, and we're in",
 		"Here on Triple D, we're all about classic American joints, well today I'm in",
 		"It's Thanksgiving season here on Triple D, and I know what you're thinkin'. Well I'm here in",
