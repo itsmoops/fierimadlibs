@@ -54,7 +54,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"Stop me if you've heard this one before. I'm here in",
 		"So here I am, just outside of",
 		"So here we are in",
-		"It's great rollin' the 67' around here, I'm south of",
+		"It's great rollin' the 67' around here. I'm south of",
 		"I almost ran out of gas, and wound up here, in a funky little town called",
 		"How cool is this story? Here I am, just west of",
 		"This is one of my recently deceased aunt's favorite places to chow down in",
