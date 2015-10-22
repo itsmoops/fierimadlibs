@@ -51,7 +51,9 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"When you think " + state + ", you probably think cajun food. Well here in",
 		"If you're lookin' for chowder, you're in the wrong place. We're here in",
 		"I'm here in",
-		"Here on Triple D, we're all about classic American joints, well today I'm in"
+		"Here on Triple D, we're all about classic American joints, well today I'm in",
+		"It's Thanksgiving season here on Triple D, and I know what you're thinkin'. Well I'm here in",
+		"YWhen I'm thinkin' great grub, I'm not thinkin " + state + ", but I hear that's gonna change. I'm in"
 	];
 	var randomNum1 = Math.floor(Math.random() * fieriText1.length);
 	
@@ -62,7 +64,10 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"where I hear there's a",
 		"where they've got a",
 		"where rumor has it they've got a",
-		"and then I find this place, where a"
+		"and then I find this place, where there's a",
+		"the worst city in America, where locals tell me there's a",
+		"a great family destination, to check out a",
+		"right in the middle of nowhere, where I hear there's a"
 	];
 	var randomNum2 = Math.floor(Math.random() * fieriText2.length);
 
@@ -73,7 +78,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"hole in the wall joint",
 		"pair of Russian immigrants",
 		"town favorite",
-		"historic little spot",
+		"historic little spot with a " + cuisine + " twist",
 		"place with tons of character",
 		"tiny little dive",
 		"joint that's right up my alley,",
@@ -85,19 +90,28 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"couple of white guys",
 		"couple of children standing on top of each other wearing a trench coat",
 		"former President of the United States",
-		"funky haunted house"
+		"funky haunted house with a " + city + " twist",
+		"office building with a twist",
+		"old-school lobster shack",
+		"50 year old ski lodge",
+		"traditional deli"
 	];
 	var randomNum3 = Math.floor(Math.random() * fieriText3.length);
 
 	var fieriText4 = [
-		"that decided to give up the corporate life to cook up",
+		"that decided to leave the corporate world, and instead cook up",
 		"who's scratch makin'",
 		"that's been crankin' out",
 		"that's, you guessed it, home makin'",
 		"doin' things their way, bustin' out",
 		"hookin' locals up with",
 		"that's not exactly what you'd expect, cookin' up",
-		"where people are pilin' in for"
+		"where people are pilin' in for",
+		"giving back to the community by churnin' out",
+		"servin' up memories, and fryin' up",
+		"pilin' up their plates with",
+		"turnin' heads with",
+		"puttin' a spin on"
 	];
 	var randomNum4 = Math.floor(Math.random() * fieriText4.length);
 
@@ -105,7 +119,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"all the classics",
 		"old school favorites",
 		"comfort cravings",
-		"real deal comfort food",
+		"real-deal comfort food",
 		"homemade grub",
 		"monster flavors",
 		"big time portions",
@@ -119,7 +133,10 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"mayo-based pick-me-ups",
 		"hand-crafted originals",
 		"a mix of old and new",
-		"perfectly crafted sliders"
+		"perfectly crafted sliders",
+		"stick-to-your-ribs bread",
+		"giant turkey legs",
+		"too many eggs"
 	];
 	var randomNum5 = Math.floor(Math.random() * fieriText5.length);
 
@@ -141,7 +158,8 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"killer",
 		"over 900 pounds of",
 		"even better",
-		"super legit"
+		"super legit",
+		"rockstar"
 	];
 	var randomNum6 = Math.floor(Math.random() * fieriText6.length);
 
@@ -155,7 +173,8 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"that comes with a side of food-lube",
 		"covered in queso",
 		"slathered in mayonnaise",
-		"that the neighborhood just can't get enough of"
+		"that the neighborhood just can't get enough of",
+		"and they're open 24 hours a day"
 	];
 	var randomNum7 = Math.floor(Math.random() * fieriText7.length);
 
@@ -169,8 +188,8 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"is your mouth watering yet? This is",
 		"my mouth is watering, let's go inside and it out, this is",
 		"oh, and remember, bananas is good. This is",
-		"we're gonna go and check out some home made " + cuisine + ". This is"
-
+		"we're gonna go and check out some home made " + cuisine + ". This is",
+		"Time for a taste of " + state + ". We're at"
 	];
 	var randomNum8 = Math.floor(Math.random() * fieriText8.length);
 
