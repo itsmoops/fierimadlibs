@@ -27,7 +27,7 @@ function generate() {
 		label.innerText = madLib;
 	}
 
-	var currentAudio = document.getElementById('tripled2');
+	var currentAudio = document.getElementById('audio1');
     currentAudio.play();
 }
 
