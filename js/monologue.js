@@ -26,6 +26,9 @@ function generate() {
 		var madLib = getMadLib(restaurant, cuisine, city, state);
 		label.innerText = madLib;
 	}
+
+	var currentAudio = document.getElementById('tripled2');
+    currentAudio.play();
 }
 
 function capitalize(string) {
