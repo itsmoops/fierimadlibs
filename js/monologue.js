@@ -189,7 +189,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"locals know it as",
 		"you are so gonna dig this, this is",
 		"is your mouth watering yet? This is",
-		"my mouth is watering, let's go inside and it out, this is",
+		"my mouth is watering, let's go inside and check it out, this is",
 		"oh, and remember, bananas is good. This is",
 		"we're gonna go and check out some home made " + cuisine + ". This is",
 		"Time for a taste of " + state + ". We're at"
