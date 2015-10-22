@@ -197,7 +197,8 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"my mouth is watering, let's go inside and check it out, this is",
 		"oh, and remember, bananas is good. This is",
 		"we're gonna go and check out some home made " + cuisine + ". This is",
-		"time for a taste of " + state + ". We're at"
+		"time for a taste of " + state + ". We're at",
+		"it's time to check out"
 	];
 	var randomNum8 = Math.floor(Math.random() * fieriText8.length);
 
