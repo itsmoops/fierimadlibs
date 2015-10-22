@@ -63,6 +63,8 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"When you think " + state + ", you probably think cajun food. Well here in",
 		"If you're lookin' for chowder, you're in the wrong place. We're here in",
 		"I'm here in",
+		"I'm here with Kid Rock",
+		"Here I am with my main man, Steve from Smashmouth, and we're in",
 		"Here on Triple D, we're all about classic American joints, well today I'm in",
 		"It's Thanksgiving season here on Triple D, and I know what you're thinkin'. Well I'm here in",
 		"When I'm thinkin' great grub, I'm not thinkin " + state + ", but I hear that's gonna change. I'm in"
@@ -149,7 +151,8 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"perfectly crafted sliders",
 		"stick-to-your-ribs bread",
 		"giant turkey legs",
-		"too many eggs"
+		"too many eggs",
+		"money Russian dressing"
 	];
 	var randomNum5 = Math.floor(Math.random() * fieriText5.length);
 
@@ -174,7 +177,9 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"super legit",
 		"rockstar",
 		"super gangster",
-		"absolutely money"
+		"absolutely money",
+		"shut-the-front-door",
+		"dynamite"
 	];
 	var randomNum6 = Math.floor(Math.random() * fieriText6.length);
 
@@ -184,15 +189,19 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"that's been done the same way for over 30 years",
 		"and I can't wait to get inside",
 		"that you can eat straight off a flip-flop",
-		"that they been doin' that way for over 65 years",
+		"that they've been doin' that way for over 65 years",
 		"that comes with an extra side of food-lube",
 		"covered in queso",
 		"slathered in mayonnaise",
 		"that the neighborhood just can't get enough of",
-		"and they're open 24 hours a day"
+		"and they're open 24 hours a day",
+		"that will have you ridin' the bus to Flavortown",
+		"gone wild",
+		"so fresh it'll slap ya",
+		"that you won't soon forget",
+		"that'll put you in a food coma"
 	];
 	var randomNum7 = Math.floor(Math.random() * fieriText7.length);
-
 
 	var fieriText8 = [
 		"welcome to",
@@ -204,7 +213,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"my mouth is watering, let's go inside and check it out, this is",
 		"oh, and remember, bananas is good. This is",
 		"we're gonna go and check out some home made " + cuisine + ". This is",
-		"time for a taste of " + state + ". We're at",
+		"time for a taste of " + city + ". We're here at",
 		"it's time to check out"
 	];
 	var randomNum8 = Math.floor(Math.random() * fieriText8.length);
