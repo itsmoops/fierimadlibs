@@ -31,8 +31,8 @@ function generate() {
     currentAudio.play();
 }
 
-function capitalize(string) {
-	return string.charAt(0).toUpperCase() + string.substr(1);
+function capitalize(str) {
+	return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
 
 function getMadLib(restaurant, cuisine, city, state) {
