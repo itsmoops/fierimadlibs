@@ -172,7 +172,9 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"over 900 pounds of",
 		"even better",
 		"super legit",
-		"rockstar"
+		"rockstar",
+		"super gangster",
+		"absolutely money"
 	];
 	var randomNum6 = Math.floor(Math.random() * fieriText6.length);
 
