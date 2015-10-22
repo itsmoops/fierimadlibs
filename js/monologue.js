@@ -56,7 +56,7 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"I'm here in",
 		"Here on Triple D, we're all about classic American joints, well today I'm in",
 		"It's Thanksgiving season here on Triple D, and I know what you're thinkin'. Well I'm here in",
-		"YWhen I'm thinkin' great grub, I'm not thinkin " + state + ", but I hear that's gonna change. I'm in"
+		"When I'm thinkin' great grub, I'm not thinkin " + state + ", but I hear that's gonna change. I'm in"
 	];
 	var randomNum1 = Math.floor(Math.random() * fieriText1.length);
 	
