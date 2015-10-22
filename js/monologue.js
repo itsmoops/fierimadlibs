@@ -118,7 +118,8 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"servin' up memories, and fryin' up",
 		"pilin' up their plates with",
 		"turnin' heads with",
-		"puttin' a spin on"
+		"puttin' a spin on",
+		"scratch cookin'"
 	];
 	var randomNum4 = Math.floor(Math.random() * fieriText4.length);
 
