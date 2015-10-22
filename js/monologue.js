@@ -32,7 +32,7 @@ function generate() {
 }
 
 function capitalizeFirst(str) {
-	return str.charAt(0).toUpperCase() + strs.substr(1);
+	return str.charAt(0).toUpperCase() + str.substr(1);
 }
 
 function capitalize(str) {
