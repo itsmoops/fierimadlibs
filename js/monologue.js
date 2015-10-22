@@ -31,6 +31,10 @@ function generate() {
     currentAudio.play();
 }
 
+function capitalizeFirst(str) {
+	return str.charAt(0).toUpperCase() + strs.substr(1);
+}
+
 function capitalize(str) {
 	return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
@@ -192,14 +196,14 @@ function getMadLib(restaurant, cuisine, city, state) {
 		"my mouth is watering, let's go inside and check it out, this is",
 		"oh, and remember, bananas is good. This is",
 		"we're gonna go and check out some home made " + cuisine + ". This is",
-		"Time for a taste of " + state + ". We're at"
+		"time for a taste of " + state + ". We're at"
 	];
 	var randomNum8 = Math.floor(Math.random() * fieriText8.length);
 
 
 	var finalText = fieriText1[randomNum1] + " " + city + ", " + state + ", " + 
 	fieriText2[randomNum2] + " " + fieriText3[randomNum3] + " " + fieriText4[randomNum4] + " " + fieriText5[randomNum5] + " and " +
-	fieriText6[randomNum6] + " " + cuisine + ", " + fieriText7[randomNum7] + ". " + fieriText8[randomNum8] 
+	fieriText6[randomNum6] + " " + cuisine + ", " + fieriText7[randomNum7] + ". " + capitalizeFirst(fieriText8[randomNum8]) 
 	+ " " + restaurant + ".";
 	
 	return finalText;
